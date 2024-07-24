@@ -1,9 +1,4392 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "product-category": [
+    {
+      "id": "1",
+      "name": "Accessories",
+      "icon": "/assets/icons/device/accessories_icon.svg",
+      "image": "/assets/images/category/cables.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Camera",
+      "icon": "/assets/icons/device/camera_icon.svg",
+      "image": "/assets/images/category/phone.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Laptop",
+      "icon": "/assets/icons/device/laptop_icon.svg",
+      "image": "/assets/images/category/phone_cases.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Phone",
+      "icon": "/assets/icons/device/mobile_icon.svg",
+      "image": "/assets/images/category/holder.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Gaming",
+      "icon": "/assets/icons/device/game_icon.svg",
+      "image": "/assets/images/category/watch_airpod.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Watch",
+      "icon": "/assets/icons/device/watch_icon.svg",
+      "image": "/assets/images/category/cables.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Network",
+      "icon": "/assets/icons/device/network_icon.svg",
+      "image": "/assets/images/category/cables.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Audio",
+      "icon": "/assets/icons/device/audio_icon.svg",
+      "image": "/assets/images/category/cables.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Phones",
+      "icon": "/assets/icons/device/mobile_icon.svg",
+      "image": "/assets/images/category/cables.png",
+      "depth": 1,
+      "subCategories": [
+        {
+          "name": "Smart Phones",
+          "icon": "/assets/icons/device/mobile_program_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "",
+              "image": "",
+              "depth": 3
+            }
+          ]
+        },
+        {
+          "name": "Accessories",
+          "icon": "/assets/icons/device/accessories_icon.svg",
+          "depth": 2,
+          "subCategories": [
+            {
+              "name": "Watch & Earpods",
+              "image": "/assets/images/category/watch_airpod.png",
+              "depth": 3
+            },
+            {
+              "name": "Holder",
+              "image": "/assets/images/category/holder.png",
+              "depth": 3
+            },
+            {
+              "name": "Power cables",
+              "image": "/assets/images/category/cables.png",
+              "depth": 3
+            },
+            {
+              "name": "Cases & Protection",
+              "image": "/assets/images/category/phone_cases.png",
+              "depth": 3
+            }
+          ]
+        }
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Juliet Oma",
+      "email": "julie@yahoo.com",
+      "phoneNumber": "08100000000",
+      "password": "123456",
+      "address": "số 9 tt5.2 khu đô thị Hoàng Mai",
+      "paymentCard": {
+        "idPayment": "1721362298133",
+        "cardNumber": "4012888888881881",
+        "name": "NGUYEN TUAN MINH",
+        "type": "Visa",
+        "expired": "12/25",
+        "cvv": "111"
+      },
+      "bill": [
+        {
+          "id": "txn_eulufto",
+          "fullname": "Nguyễn Tuấn Minh",
+          "street": "số 9 tt5.2 khu đô thị Hoàng Mai",
+          "city": "Hanoi",
+          "region": "afr",
+          "postalcode": "100000",
+          "shippingMethod": "Express Shipping",
+          "shippingPrice": 22.5,
+          "products": [
+            {
+              "id": "517ef475-a9b5-42ac-accc-42fdac2f8d07",
+              "quantity": 1,
+              "productId": "4",
+              "color": "Rose Gold",
+              "image": "https://images-na.ssl-images-amazon.com/images/I/71TIOhVWQ5L.jpg",
+              "name": "Smartwatch A1",
+              "price": 250
+            },
+            {
+              "id": "9b05b430-09f2-4dc2-a997-7f99c4011886",
+              "quantity": 1,
+              "productId": "2",
+              "color": "Black",
+              "image": "https://m.media-amazon.com/images/I/61nzbNdA7hL.jpg",
+              "name": "Smartphone Y2",
+              "price": 800,
+              "salePrice": 750
+            }
+          ],
+          "paymentType": "cr",
+          "paymentTransaction": "txn_eulufto",
+          "amountPaid": 1045
+        },
+        {
+          "id": "txn_qwq037m",
+          "fullname": "Nguyen van thuan",
+          "street": "số 9 tt5.2 khu đô thị Ao Sào",
+          "city": "Hanoi",
+          "region": "sea",
+          "postalcode": "11111",
+          "shippingMethod": "Express Shipping",
+          "shippingPrice": 22.5,
+          "products": [
+            {
+              "id": "df3b6c62-3106-4c7b-8455-e6d2184710dd",
+              "quantity": 1,
+              "productId": "7",
+              "color": "Silver",
+              "image": "https://m.media-amazon.com/images/I/61qplm+4S3L.jpg",
+              "name": "Desktop D4",
+              "price": 1800,
+              "salePrice": 1600
+            },
+            {
+              "id": "5b262fd0-9309-4c66-8c51-7f74dbfef937",
+              "quantity": 1,
+              "productId": "18",
+              "color": "Black",
+              "image": "https://fitvii.com/cdn/shop/products/FitVII-HM08-SpO2-Wearable-Fitness-Tracker-with-Screen-Protector-MorePro-1681713567.jpg?v=1716544096&width=1445",
+              "name": "Fitness Tracker O15",
+              "price": 80
+            },
+            {
+              "id": "7c1ec034-7bbb-4099-bda8-c6b255edc3db",
+              "quantity": 1,
+              "productId": "15",
+              "color": "Blue",
+              "image": "https://4.imimg.com/data4/XT/JG/MY-9557037/external-hard-disk.jpg",
+              "name": "External HDD L12",
+              "price": 120
+            }
+          ],
+          "paymentType": "CreditCard",
+          "paymentTransaction": "txn_qwq037m",
+          "amountPaid": 1845
+        },
+        {
+          "id": "txn_gmm66u6",
+          "fullname": "Ha Viet Anh",
+          "street": "số 9 tt5.2 khu đô thị Ao Sào",
+          "city": "Hanoi",
+          "region": "afr",
+          "postalcode": "12345",
+          "shippingMethod": "Regular Shipping",
+          "shippingPrice": 7.5,
+          "products": [
+            {
+              "id": "3b740a43-6c58-4fe8-80e4-ff287e7fef2b",
+              "quantity": 1,
+              "productId": "19",
+              "color": "Silver",
+              "image": "https://m.media-amazon.com/images/I/71ASACudpfL._AC_SL1500_.jpg",
+              "name": "Drone P16",
+              "price": 1000
+            },
+            {
+              "id": "0e9b360b-ed4c-4f9b-9e27-0ab586dd01ce",
+              "quantity": 1,
+              "productId": "15",
+              "color": "Blue",
+              "image": "https://4.imimg.com/data4/XT/JG/MY-9557037/external-hard-disk.jpg",
+              "name": "External HDD L12",
+              "price": 120
+            }
+          ],
+          "paymentType": "CreditCard",
+          "paymentTransaction": "txn_gmm66u6",
+          "amountPaid": 1135
+        },
+        {
+          "id": "txn_gi1bo92",
+          "fullname": "Ha Viet Anh",
+          "street": "số 9 tt5.2 khu đô thị Ao Sào",
+          "city": "Hanoi",
+          "region": "na",
+          "postalcode": "12345",
+          "shippingMethod": "Free Shipping",
+          "shippingPrice": 0,
+          "products": [
+            {
+              "id": "f175a8e6-7658-4e5f-95bd-c94617466112",
+              "quantity": 1,
+              "productId": "7",
+              "color": "Silver",
+              "image": "https://m.media-amazon.com/images/I/61qplm+4S3L.jpg",
+              "name": "Desktop D4",
+              "price": 1800,
+              "salePrice": 1600
+            },
+            {
+              "id": "e524005a-01b3-44b7-86a5-2fad0cf54eec",
+              "quantity": 1,
+              "productId": "18",
+              "color": "Black",
+              "image": "https://fitvii.com/cdn/shop/products/FitVII-HM08-SpO2-Wearable-Fitness-Tracker-with-Screen-Protector-MorePro-1681713567.jpg?v=1716544096&width=1445",
+              "name": "Fitness Tracker O15",
+              "price": 80
+            },
+            {
+              "id": "630f1354-9757-48ea-865a-6db4653c4a78",
+              "quantity": 1,
+              "productId": "8",
+              "color": "Black",
+              "image": "https://row.hyperx.com/cdn/shop/products/hyperx_alloy_core_rgb_es_1_top_down_1600x.jpg?v=1664011586",
+              "name": "Keyboard E5",
+              "price": 80
+            }
+          ],
+          "paymentType": "CreditCard",
+          "paymentTransaction": "txn_gi1bo92",
+          "amountPaid": 1760
+        },
+        {
+          "id": "txn_rbx5okl",
+          "fullname": "tuan minh",
+          "street": "số 9 tt5.2 khu đô thị Ao Sào",
+          "city": "Quận Hoàng Mai",
+          "region": "na",
+          "postalcode": "100000",
+          "shippingMethod": "Regular Shipping",
+          "shippingPrice": 7.5,
+          "products": [
+            {
+              "id": "9bc51ae8-633a-4ec1-a0eb-d16b7d9c43a1",
+              "quantity": 1,
+              "productId": "21",
+              "color": "Black",
+              "image": "https://media.wired.com/photos/593284aeaef9a462de98365f/master/w_2560%2Cc_limit/2014-09-23-iphone6-gallery-1.jpg",
+              "name": "Smartphone Y3",
+              "price": 800,
+              "salePrice": 750
+            },
+            {
+              "id": "b5822976-f0dd-46c1-a0f2-2ec82aeda084",
+              "quantity": 1,
+              "productId": "25",
+              "color": "Black",
+              "image": "https://example.com/images/smartphone-x1.jpg",
+              "name": "Smartphone X1",
+              "price": 900,
+              "salePrice": 850
+            },
+            {
+              "id": "b2372c01-363f-4a3a-98e1-fbb3352bfb23",
+              "quantity": 1,
+              "productId": "2",
+              "color": "Black",
+              "image": "https://m.media-amazon.com/images/I/61nzbNdA7hL.jpg",
+              "name": "Smartphone Y2",
+              "price": 800,
+              "salePrice": 750
+            }
+          ],
+          "paymentType": "CreditCard",
+          "paymentTransaction": "txn_rbx5okl",
+          "amountPaid": 2365
+        },
+        {
+          "id": "txn_upvcgx3",
+          "fullname": "Nguyen van A",
+          "street": "số 9 tt5.2 khu đô thị Ao Sào",
+          "city": "Hanoi",
+          "region": "afr",
+          "postalcode": "11111",
+          "shippingMethod": "Regular Shipping",
+          "shippingPrice": 7.5,
+          "products": [
+            {
+              "id": "486bdb9f-150d-4c62-8339-dc6e751c094b",
+              "quantity": 1,
+              "productId": "16",
+              "color": "Black",
+              "image": "https://vn.canon/media/image/2023/10/04/7e87d9f1109e44dda380b24e785c5163_RF10-20mm+f4L+IS+STM+Front+Slant+02.png",
+              "name": "Camera Lens M13",
+              "price": 400
+            },
+            {
+              "id": "dc135d99-409f-46c3-9763-d893467012b2",
+              "quantity": 1,
+              "productId": "16",
+              "color": "Black",
+              "image": "https://vn.canon/media/image/2023/10/04/7e87d9f1109e44dda380b24e785c5163_RF10-20mm+f4L+IS+STM+Front+Slant+02.png",
+              "name": "Camera Lens M13",
+              "price": 400
+            }
+          ],
+          "paymentType": "CreditCard",
+          "paymentTransaction": "txn_upvcgx3",
+          "amountPaid": 815
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullName": "James Williams",
+      "email": "jameswilly@gmail.com",
+      "number": "08111111111"
+    },
+    {
+      "id": 3,
+      "fullName": "Ahmed Ali",
+      "email": "ahmedali012@gmail.com",
+      "number": "09022222222"
+    },
+    {
+      "id": 4,
+      "fullName": "Grace Funsho",
+      "email": "gracefunsho@gmail.com",
+      "number": "09033333333"
+    },
+    {
+      "id": 8,
+      "email": "datnt",
+      "fullName": "datnt12",
+      "password": 123456
+    },
+    {
+      "id": "1775741e-d669-4f0d-9544-94ca58407d98",
+      "email": "vinxen2019@gmail.com",
+      "fullName": "nguyễn tuấn minh",
+      "password": "210720002"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "cart": [
+    {
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  ",
+      "id": "cna-oPb"
+    },
+    {
+      "id": "486bdb9f-150d-4c62-8339-dc6e751c094b",
+      "quantity": 1,
+      "productId": "16",
+      "color": "Black",
+      "image": "https://vn.canon/media/image/2023/10/04/7e87d9f1109e44dda380b24e785c5163_RF10-20mm+f4L+IS+STM+Front+Slant+02.png",
+      "name": "Camera Lens M13",
+      "price": 400
+    },
+    {
+      "id": "dc135d99-409f-46c3-9763-d893467012b2",
+      "quantity": 1,
+      "productId": "16",
+      "color": "Black",
+      "image": "https://vn.canon/media/image/2023/10/04/7e87d9f1109e44dda380b24e785c5163_RF10-20mm+f4L+IS+STM+Front+Slant+02.png",
+      "name": "Camera Lens M13",
+      "price": 400
+    }
+  ],
+  "instalment": [
+    {
+      "id": 1,
+      "productImg": "https://shopdunk.com/images/thumbs/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd.png",
+      "cartId": "#8967856",
+      "dueAmount": 300,
+      "dueDate": "19/07/2024",
+      "total": 1200
+    },
+    {
+      "id": 2,
+      "productImg": "https://m.media-amazon.com/images/I/61nzbNdA7hL.jpg",
+      "cartId": "#8967862",
+      "dueAmount": 250,
+      "dueDate": "10/07/2024",
+      "actualAmount": 250,
+      "paymentDate": "08/07/2024",
+      "total": 750
+    }
+  ],
+  "product": [
+    {
+      "id": "1",
+      "name": "MacBook Pro M2 MNEJ3 2022 LLA 13.3 inch",
+      "image": "https://shopdunk.com/images/thumbs/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd.png",
+      "price": 1200,
+      "color": "Silver",
+      "categoryId": "laptop",
+      "brand": "Apple",
+      "rating": 4.5,
+      "favorite": false,
+      "specifications": [
+        {
+          "key": "Processor",
+          "value": "Intel Core i9"
+        },
+        {
+          "key": "GPU",
+          "value": "NVIDIA GeForce RTX 3080"
+        },
+        {
+          "key": "Memory",
+          "value": "16 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "512 GB SSD"
+        },
+        {
+          "key": "Screen Size",
+          "value": "15.6 inches"
+        },
+        {
+          "key": "Battery Life",
+          "value": "10 hours"
+        },
+        {
+          "key": "OS",
+          "value": "Windows 10"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://shopdunk.com/images/thumbs/0000723_macbook-air-m1-2020-8gb-ram-256gb-ssd.png"
+        },
+        {
+          "img": "https://vcdn1-sohoa.vnecdn.net/2023/07/06/DSCF3483-1686014164-7221-1688583032.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=haHqKX-5yf1qzlKyIyLukQ"
+        },
+        {
+          "img": "https://bizweb.dktcdn.net/100/444/581/products/apple-macbook-pro-14-16-inch-jpeg-c34427d4-d86f-4581-9c17-0db0e942dd1f.jpg?v=1675737472833"
+        },
+        {
+          "img": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/refurb-mbp13touchbar-performance-space-gallery-2020?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1591921674000"
+        },
+        {
+          "img": "https://imageio.forbes.com/specials-images/imageserve/5fd00ea644cd62376ce2b6c1/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds"
+        },
+        {
+          "img": "https://helios-i.mashable.com/imagery/reviews/03y8gbj1mqCuexgXxFJ5vyX/hero-image.fill.size_1248x702.v1623391330.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery Life",
+          "value": 4.8
+        },
+        {
+          "key": "Performance",
+          "value": 4.7
+        },
+        {
+          "key": "Display Quality",
+          "value": 4.9
+        },
+        {
+          "key": "Portability",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Smartphone Y2",
+      "image": "https://m.media-amazon.com/images/I/61nzbNdA7hL.jpg",
+      "price": 800,
+      "salePrice": 750,
+      "discount": true,
+      "percent": 6,
+      "favorite": false,
+      "color": "Black",
+      "rating": 4.5,
+      "categoryId": "phone",
+      "brand": "Apple",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.1 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Octa-core"
+        },
+        {
+          "key": "RAM",
+          "value": "6 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "128 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "4000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "12 MP"
+        },
+        {
+          "key": "OS",
+          "value": "Android"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://www.apple.com/newsroom/images/2023/09/apple-unveils-iphone-15-pro-and-iphone-15-pro-max/article/Apple-iPhone-15-Pro-lineup-hero-230912_Full-Bleed-Image.jpg.large.jpg"
+        },
+        {
+          "img": "https://socientifica.com.br/wp-content/uploads/2024/06/iphone-15.jpg"
+        },
+        {
+          "img": "https://cdn.tgdd.vn/Products/Images/42/299033/Slider/iphone-15-pro-thumbyt-1020x570.jpg"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/4YjkNCkTpbuSrgDrbFGUm3.jpg"
+        },
+        {
+          "img": "https://cdn.xtmobile.vn/vnt_upload/product/03_2024/thiet-ke-iphone-15-plus-128gb-chinh-hang-xtmobile.jpg"
+        },
+        {
+          "img": "https://images.macrumors.com/article-new/2023/09/iphone-15-pro-gray.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Smartphone Y3",
+      "image": "https://media.wired.com/photos/593284aeaef9a462de98365f/master/w_2560%2Cc_limit/2014-09-23-iphone6-gallery-1.jpg",
+      "price": 800,
+      "salePrice": 750,
+      "discount": true,
+      "percent": 6,
+      "favorite": true,
+      "color": "Black",
+      "rating": 4.5,
+      "brand": "Apple",
+      "categoryId": "phone",
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "5.9 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "AMD I100"
+        },
+        {
+          "key": "RAM",
+          "value": "12 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "256 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "5000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "20 MP"
+        },
+        {
+          "key": "OS",
+          "value": "UBUNTU"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://media.wired.com/photos/593284aeaef9a462de98365f/master/w_2560%2Cc_limit/2014-09-23-iphone6-gallery-1.jpg"
+        },
+        {
+          "img": "https://www.zdnet.com/a/img/resize/9c4c6a4546bf9e283e63548c45f588360ce02607/2023/10/05/487a7516-8c27-4547-9dd5-e78f40e8d112/google-pixel-8-pro-screen.jpg?auto=webp&fit=crop&height=900&width=1200"
+        },
+        {
+          "img": "https://www.dataselect.com/wp-content/uploads/2023/08/Smartphone-Specifications-Explained-2.webp"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/4YjkNCkTpbuSrgDrbFGUm3.jpg"
+        },
+        {
+          "img": "https://cdn.xtmobile.vn/vnt_upload/product/03_2024/thiet-ke-iphone-15-plus-128gb-chinh-hang-xtmobile.jpg"
+        },
+        {
+          "img": "https://cdn.thewirecutter.com/wp-content/media/2023/09/smartphone-2048px-0778-2x1-1.jpg?auto=webp&quality=75&crop=1.91:1&width=1200"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 2.3
+        },
+        {
+          "key": "Monitor",
+          "value": 3.5
+        },
+        {
+          "key": "Lightness",
+          "value": 4.2
+        },
+        {
+          "key": "Build Quality",
+          "value": 3.5
+        },
+        {
+          "key": "Value for Money",
+          "value": 1.6
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Tablet Z3",
+      "image": "https://p2-ofp.static.pub/fes/cms/2021/10/28/juqs65pgl1gh3dysi7yv1tnvtsiqva364946.png",
+      "price": 500,
+      "color": "White",
+      "categoryId": "phone",
+      "brand": "Apple",
+      "favorite": true,
+      "rating": 4.2,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.1 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Octa-core"
+        },
+        {
+          "key": "RAM",
+          "value": "6 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "128 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "4000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "12 MP"
+        },
+        {
+          "key": "OS",
+          "value": "Android"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://cdn.nguyenkimmall.com/images/companies/_1/SEO/nen-mua-tablet-hay-phablet/tablet-samsung-voi-but-stylus.jpg"
+        },
+        {
+          "img": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/plp/tablet-new/matepad-pro-series-card-1.jpg"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/3Y5PQVLsQTK6K5n2Q3mdWS-1200-80.jpg"
+        },
+        {
+          "img": "https://www.cnet.com/a/img/resize/79a3ed74327621f060c3084189abd1c9452048be/hub/2023/06/30/9f75026d-1f39-4551-b336-9af80b3a4782/onepad-plus-tablet-01.jpg?auto=webp&fit=crop&height=360&width=640"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 3.1
+        },
+        {
+          "key": "Monitor",
+          "value": 2.4
+        },
+        {
+          "key": "Lightness",
+          "value": 2.4
+        },
+        {
+          "key": "Build Quality",
+          "value": 1.2
+        },
+        {
+          "key": "Value for Money",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Smartwatch A1",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71TIOhVWQ5L.jpg",
+      "price": 250,
+      "color": "Rose Gold",
+      "categoryId": "watch",
+      "brand": "Apple",
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.5 inches"
+        },
+        {
+          "key": "Battery Life",
+          "value": "24 hours"
+        },
+        {
+          "key": "Water Resistance",
+          "value": "Yes"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth, Wi-Fi"
+        },
+        {
+          "key": "Sensors",
+          "value": "Heart Rate, GPS, Accelerometer"
+        },
+        {
+          "key": "Compatibility",
+          "value": "iOS, Android"
+        },
+        {
+          "key": "Storage",
+          "value": "4 GB"
+        }
+      ],
+      "bestSeller": true,
+      "rating": 4.8,
+      "imagePreview": [
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/FkGweMeB7hdPgaSFQdgsfj.jpg"
+        },
+        {
+          "img": "https://www.zdnet.com/a/img/resize/2df5e25cd33c84aee2c949c502ace10103b0c96f/2023/09/12/aec7c4a0-a40f-43c3-8c22-ecaa9bd7759f/img-0980.jpg?auto=webp&fit=crop&height=360&width=640"
+        },
+        {
+          "img": "https://cdn11.dienmaycholon.vn/filewebdmclnew/DMCL21/Picture/News/News_expe_5716/5716.png?version=151625"
+        },
+        {
+          "img": "https://www.beatxp.com/blog/wp-content/uploads/2023/06/smartwatch-features-1200x900.jpg"
+        },
+        {
+          "img": "https://media.centrepointstores.com/i/centrepoint/163490269-163490269-LS18280521_01-2100.jpg?fmt=auto&$quality-standard$&sm=c&$prodimg-m-prt-pdp-2x$"
+        },
+        {
+          "img": "https://cdn.thewirecutter.com/wp-content/media/2023/10/smartwatches-2048px-2x1-1.jpg?auto=webp&quality=75&crop=1.91:1&width=1200"
+        }
+      ],
+      "favorite": true,
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Headphones B2",
+      "image": "https://resource.logitechg.com/w_386,ar_1.0,c_limit,f_auto,q_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/products/g433/g433-gallery-red-1.png?v=1",
+      "price": 150,
+      "salePrice": 120,
+      "discount": true,
+      "percent": 20,
+      "color": "Blue",
+      "categoryId": "audio",
+      "brand": "Apple",
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Over-Ear"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "20 hours"
+        },
+        {
+          "key": "Noise Cancellation",
+          "value": "Yes"
+        },
+        {
+          "key": "Microphone",
+          "value": "Built-in"
+        }
+      ],
+      "favorite": false,
+      "imagePreview": [
+        {
+          "img": "https://cdn.shopify.com/s/files/1/0608/4988/1306/files/roar-301-headphone.png?v=1667291051"
+        },
+        {
+          "img": "https://m.media-amazon.com/images/I/71VR6c3j2bL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "img": "https://cdn.thewirecutter.com/wp-content/media/2023/07/bluetoothheadphones-2048px-0876.jpg"
+        },
+        {
+          "img": "https://media.wired.com/photos/5f52a44bb555bc55dbcdf5a8/master/pass/Gear-Wireless-Bluetooth-1226031847.jpg"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/4hU7T5fQYWbnU5vxHZnAZE.jpg"
+        },
+        {
+          "img": "https://file.hstatic.net/1000026716/file/gearvn-cach-phan-biet-headphone-va-headset_5e4b37c234194dafa2f4cd1bc55a81c8_1024x1024.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Sound Quality",
+          "value": 4.9
+        },
+        {
+          "key": "Comfort",
+          "value": 4.8
+        },
+        {
+          "key": "Noise Cancellation",
+          "value": 4.7
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Camera C3",
+      "image": "https://m.media-amazon.com/images/I/51VM-M2T0DL._AC_UF894,1000_QL80_.jpg",
+      "price": 1200,
+      "color": "Black",
+      "categoryId": "camera",
+      "brand": "Apple",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24 MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Sensor Type",
+          "value": "CMOS"
+        },
+        {
+          "key": "ISO Range",
+          "value": "100-25600"
+        },
+        {
+          "key": "Video Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wi-Fi, Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "600 shots"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://eavf3cou74b.exactdn.com/wp-content/uploads/2023/06/28103020/Best-Cameras-for-Professional-Photography-6.jpg?strip=all&lossy=1&ssl=1"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/GXHa4PWwDPx7tGQG9MDQvK-1200-80.jpg"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/Ekc54rx2YMgRt5ycD5KYf5.jpg"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/4wpKrH93D37dDPTisdqGy4.jpg"
+        },
+        {
+          "img": "https://i1.adis.ws/i/canon/eos-r7-lifestyle_c604337a3b374a94a080d40b43f3a920?$70-30-header-4by3-dt-jpg$"
+        },
+        {
+          "img": "https://pro.sony/s3/2017/09/18134059/hdc5500_3q_190225_01-Large.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Image Quality",
+          "value": 4.9
+        },
+        {
+          "key": "Autofocus",
+          "value": 4.7
+        },
+        {
+          "key": "Battery Life",
+          "value": 4.6
+        },
+        {
+          "key": "Ease of Use",
+          "value": 4.8
+        }
+      ],
+      "favorite": true
+    },
+    {
+      "id": "7",
+      "name": "Desktop D4",
+      "image": "https://m.media-amazon.com/images/I/61qplm+4S3L.jpg",
+      "price": 1800,
+      "salePrice": 1600,
+      "discount": true,
+      "percent": 11,
+      "color": "Silver",
+      "categoryId": "laptop",
+      "brand": "Sony",
+      "specifications": [
+        {
+          "key": "Processor",
+          "value": "Intel Core i9"
+        },
+        {
+          "key": "GPU",
+          "value": "NVIDIA GeForce RTX 3080"
+        },
+        {
+          "key": "Memory",
+          "value": "16 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "512 GB SSD"
+        },
+        {
+          "key": "Screen Size",
+          "value": "15.6 inches"
+        },
+        {
+          "key": "Battery Life",
+          "value": "10 hours"
+        },
+        {
+          "key": "OS",
+          "value": "Windows 10"
+        }
+      ],
+      "bestSeller": true,
+      "rating": 4.9,
+      "favorite": true,
+      "imagePreview": [
+        {
+          "img": "https://m.media-amazon.com/images/I/71snht4ZY+L.jpg"
+        },
+        {
+          "img": "https://cdn.thewirecutter.com/wp-content/media/2023/05/desktopcomputer-2048px-8816-3x2-1.jpg?auto=webp&quality=75&crop=3:2&width=1024"
+        },
+        {
+          "img": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/desktop/prod-1007554-aio-desktop-inspiron-5430-optiplex-7420-plus-km5221w-800x620.png?fmt=png-alpha&wid=800&hei=620"
+        },
+        {
+          "img": "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/MSFT-All-in-One_1040x585?scl=1"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/eEiyqh39i5ytkCQZGbdWA-1200-80.jpg"
+        },
+        {
+          "img": "https://cdn.mos.cms.futurecdn.net/eEiyqh39i5ytkCQZGbdWA-1200-80.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery Life",
+          "value": 4.8
+        },
+        {
+          "key": "Performance",
+          "value": 4.7
+        },
+        {
+          "key": "Display Quality",
+          "value": 4.9
+        },
+        {
+          "key": "Portability",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Keyboard E5",
+      "image": "https://row.hyperx.com/cdn/shop/products/hyperx_alloy_core_rgb_es_1_top_down_1600x.jpg?v=1664011586",
+      "price": 80,
+      "color": "Black",
+      "categoryId": "gaming",
+      "brand": "Samsung",
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Mechanical"
+        },
+        {
+          "key": "Switch Type",
+          "value": "Cherry MX Red"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wired"
+        },
+        {
+          "key": "Backlight",
+          "value": "RGB"
+        },
+        {
+          "key": "Key Rollover",
+          "value": "N-Key"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Typing Comfort",
+          "value": 4.7
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.5
+        },
+        {
+          "key": "Key Feedback",
+          "value": 4.6
+        },
+        {
+          "key": "Backlighting",
+          "value": 4.4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Mouse F6",
+      "image": "https://resource.logitech.com/content/dam/gaming/en/products/pro-wireless-gaming-mouse/pro-wireless-carbon-gallery-1.png",
+      "price": 40,
+      "color": "Red",
+      "categoryId": "gaming",
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Wireless"
+        },
+        {
+          "key": "DPI",
+          "value": "16000"
+        },
+        {
+          "key": "Buttons",
+          "value": "6"
+        },
+        {
+          "key": "Battery Life",
+          "value": "60 hours"
+        },
+        {
+          "key": "Connectivity",
+          "value": "USB"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://www.ubuy.vn/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzF5R3RhdUItQUwuX0FDX1NMMTUwMF8uanBn.jpg"
+        },
+        {
+          "img": "https://www.cherry.co.uk/media/catalog/product/cache/661c0bae3bb54b88fbb1b415a9d390cb/j/k/jk-8600-2_topview_gb_3.jpg"
+        },
+        {
+          "img": "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-keyboard/pro-x-keyboard-gallery-1.png?v=1"
+        },
+        {
+          "img": "https://assetsio.gnwcdn.com/shadow-x.jpg?width=1200&height=1200&fit=bounds&quality=70&format=jpg&auto=webp"
+        },
+        {
+          "img": "https://keychronthailand.com/cdn/shop/files/Keychron-Q1-HE-QMK-Wireless-Custom-Keyboard-Shell-White.webp?v=1711528520&width=1406"
+        },
+        {
+          "img": "https://keychronthailand.com/cdn/shop/files/Keychron-Q1-HE-QMK-Wireless-Custom-Keyboard-Shell-White.webp?v=1711528520&width=1406"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Monitor G7",
+      "image": "https://hanoicomputercdn.com/media/product/56917_xl2546k__3_.png",
+      "price": 300,
+      "color": "Silver",
+      "categoryId": "gaming",
+      "brand": "Samsung",
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "27 inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "2560x1440"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "144 Hz"
+        },
+        {
+          "key": "Panel Type",
+          "value": "IPS"
+        },
+        {
+          "key": "Aspect Ratio",
+          "value": "16:9"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://images-cdn.ubuy.co.in/633b97101b40ac43d352aad2-eyoyo-10-inch-ips-lcd-monitor-1280x800.jpg"
+        },
+        {
+          "img": "https://cdn.thewirecutter.com/wp-content/media/2021/05/27-inch-monitor-2048px-1572.jpg"
+        },
+        {
+          "img": "https://images.samsung.com/is/image/samsung/p6pim/ph/ls22r350fhexxp/gallery/ph-sr35-ls22r350fhexxp-534660416?$650_519_PNG$"
+        },
+        {
+          "img": "https://m.media-amazon.com/images/I/71bdgzFk6OL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "img": "https://www.lg.com/content/dam/channel/wcms/in/images/monitors/27mp400-b_atr_eail_in_c/gallery/27MP400-B-D-01.jpg"
+        },
+        {
+          "img": "https://m.media-amazon.com/images/I/612vM0pdKCL._AC_UF894,1000_QL80_.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Typing Comfort",
+          "value": 4.7
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.5
+        },
+        {
+          "key": "Key Feedback",
+          "value": 4.6
+        },
+        {
+          "key": "Backlighting",
+          "value": 4.4
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Printer H8",
+      "image": "https://mediaserver.goepson.com/ImConvServlet/imconv/63d65bfb325dadd89dd438c9482febd02112c15d/1200Wx1200H?use=banner&hybrisId=B2C&assetDescr=L5590-%282%29",
+      "price": 200,
+      "color": "White",
+      "categoryId": "accessories",
+      "brand": "Canon",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "1920x1080"
+        },
+        {
+          "key": "Brightness",
+          "value": "3000 lumens"
+        },
+        {
+          "key": "Contrast Ratio",
+          "value": "10000:1"
+        },
+        {
+          "key": "Throw Distance",
+          "value": "1.5m - 5m"
+        },
+        {
+          "key": "Lamp Life",
+          "value": "5000 hours"
+        },
+        {
+          "key": "Connectivity",
+          "value": "HDMI, USB, VGA"
+        },
+        {
+          "key": "Aspect Ratio",
+          "value": "16:9"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Image Quality",
+          "value": 4.9
+        },
+        {
+          "key": "Autofocus Speed",
+          "value": 4.7
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.6
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Projector I9",
+      "image": "https://m.media-amazon.com/images/I/61+CDKTXYgL._AC_SL1500_.jpg",
+      "price": 1500,
+      "color": "Black",
+      "categoryId": "accessories",
+      "brand": "Canon",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "1920x1080"
+        },
+        {
+          "key": "Brightness",
+          "value": "3000 lumens"
+        },
+        {
+          "key": "Contrast Ratio",
+          "value": "10000:1"
+        },
+        {
+          "key": "Throw Distance",
+          "value": "1.5m - 5m"
+        },
+        {
+          "key": "Lamp Life",
+          "value": "5000 hours"
+        },
+        {
+          "key": "Connectivity",
+          "value": "HDMI, USB, VGA"
+        },
+        {
+          "key": "Aspect Ratio",
+          "value": "16:9"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Brightness",
+          "value": 4.7
+        },
+        {
+          "key": "Picture Quality",
+          "value": 4.8
+        },
+        {
+          "key": "Ease of Setup",
+          "value": 4.6
+        },
+        {
+          "key": "Portability",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Speaker J10",
+      "image": "https://images-cdn.ubuy.co.id/633af66c2ed4376854580abf-60w-portable-bluetooth-speaker-with.jpg",
+      "price": 100,
+      "salePrice": 90,
+      "discount": true,
+      "percent": 10,
+      "color": "Grey",
+      "categoryId": "audio",
+      "brand": "Lenovo",
+      "specifications": [
+        {
+          "key": "Type",
+          "value": "Condenser"
+        },
+        {
+          "key": "Connectivity",
+          "value": "USB"
+        },
+        {
+          "key": "Frequency Response",
+          "value": "20 Hz - 20 kHz"
+        },
+        {
+          "key": "Polar Pattern",
+          "value": "Cardioid"
+        },
+        {
+          "key": "Sensitivity",
+          "value": "-42 dB"
+        },
+        {
+          "key": "Bit Depth",
+          "value": "24-bit"
+        },
+        {
+          "key": "Sample Rate",
+          "value": "96 kHz"
+        }
+      ],
+      "favorite": true,
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Sound Quality",
+          "value": 4.8
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Bass Response",
+          "value": 4.6
+        },
+        {
+          "key": "Portability",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Router K11",
+      "image": "https://www.dlink.co.id/wp-content/uploads/2020/06/DIR-2150.jpg",
+      "price": 80,
+      "color": "Black",
+      "categoryId": "network",
+      "brand": "Lenovo",
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "27 inches"
+        },
+        {
+          "key": "Resolution",
+          "value": "2560x1440"
+        },
+        {
+          "key": "Refresh Rate",
+          "value": "144 Hz"
+        },
+        {
+          "key": "Panel Type",
+          "value": "IPS"
+        },
+        {
+          "key": "Aspect Ratio",
+          "value": "16:9"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "External HDD L12",
+      "image": "https://4.imimg.com/data4/XT/JG/MY-9557037/external-hard-disk.jpg",
+      "price": 120,
+      "color": "Blue",
+      "categoryId": "electronics",
+      "brand": "Samsung",
+      "specifications": [
+        {
+          "key": "Capacity",
+          "value": "1 TB"
+        },
+        {
+          "key": "Type",
+          "value": "SSD"
+        },
+        {
+          "key": "Interface",
+          "value": "USB 3.1"
+        },
+        {
+          "key": "Read Speed",
+          "value": "500 MB/s"
+        },
+        {
+          "key": "Write Speed",
+          "value": "450 MB/s"
+        },
+        {
+          "key": "Dimensions",
+          "value": "100 x 70 x 10 mm"
+        },
+        {
+          "key": "Weight",
+          "value": "150 g"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Camera Lens M13",
+      "image": "https://vn.canon/media/image/2023/10/04/7e87d9f1109e44dda380b24e785c5163_RF10-20mm+f4L+IS+STM+Front+Slant+02.png",
+      "price": 400,
+      "color": "Black",
+      "categoryId": "camera",
+      "brand": "Canon",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24 MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Sensor Type",
+          "value": "CMOS"
+        },
+        {
+          "key": "ISO Range",
+          "value": "100-25600"
+        },
+        {
+          "key": "Video Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wi-Fi, Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "600 shots"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ],
+      "favorite": true
+    },
+    {
+      "id": "17",
+      "name": "Smart Home Device N14",
+      "image": "/assets/images/search/phone.png",
+      "price": 150,
+      "color": "White",
+      "categoryId": "accessories",
+      "brand": "Flower",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24 MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Sensor Type",
+          "value": "CMOS"
+        },
+        {
+          "key": "ISO Range",
+          "value": "100-25600"
+        },
+        {
+          "key": "Video Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wi-Fi, Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "600 shots"
+        }
+      ],
+      "bestSeller": true,
+      "rating": 5,
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Fitness Tracker O15",
+      "image": "https://fitvii.com/cdn/shop/products/FitVII-HM08-SpO2-Wearable-Fitness-Tracker-with-Screen-Protector-MorePro-1681713567.jpg?v=1716544096&width=1445",
+      "price": 80,
+      "color": "Black",
+      "categoryId": "electronics",
+      "brand": "Flower",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24 MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Sensor Type",
+          "value": "CMOS"
+        },
+        {
+          "key": "ISO Range",
+          "value": "100-25600"
+        },
+        {
+          "key": "Video Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wi-Fi, Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "600 shots"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "Drone P16",
+      "image": "https://m.media-amazon.com/images/I/71ASACudpfL._AC_SL1500_.jpg",
+      "price": 1000,
+      "color": "Silver",
+      "categoryId": "accessories",
+      "brand": "Lenovo",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24 MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Sensor Type",
+          "value": "CMOS"
+        },
+        {
+          "key": "ISO Range",
+          "value": "100-25600"
+        },
+        {
+          "key": "Video Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wi-Fi, Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "600 shots"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Game Console Q17",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg",
+      "price": 400,
+      "salePrice": 350,
+      "discount": true,
+      "percent": 13,
+      "color": "Black",
+      "categoryId": "gaming",
+      "brand": "Lenovo",
+      "specifications": [
+        {
+          "key": "Resolution",
+          "value": "24 MP"
+        },
+        {
+          "key": "Lens",
+          "value": "18-55mm"
+        },
+        {
+          "key": "Sensor Type",
+          "value": "CMOS"
+        },
+        {
+          "key": "ISO Range",
+          "value": "100-25600"
+        },
+        {
+          "key": "Video Resolution",
+          "value": "4K"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Wi-Fi, Bluetooth"
+        },
+        {
+          "key": "Battery Life",
+          "value": "600 shots"
+        }
+      ],
+      "favorite": true,
+      "imagePreview": [
+        {
+          "img": "/assets/images/product/product1.png"
+        },
+        {
+          "img": "/assets/images/product/product2.png"
+        },
+        {
+          "img": "/assets/images/product/product3.png"
+        },
+        {
+          "img": "/assets/images/product/product4.png"
+        },
+        {
+          "img": "/assets/images/product/product5.png"
+        },
+        {
+          "img": "/assets/images/product/product6.png"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "minhNT",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://www.wilsoncenter.org/sites/default/files/media/images/person/james-person-1.jpg"
+        },
+        {
+          "id": "2",
+          "user": "HaVietAnh",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://www.psychologs.com/wp-content/uploads/2024/01/8-tips-to-be-a-jolly-person.jpg"
+        },
+        {
+          "id": "3",
+          "user": "HieuBM",
+          "content": "This macbook air at first feels just so big to me using it for school, and after a while, it felt as a perfect size. I look at it sometimes and realize how portable and small it is, but IT FEELS AS BIG AS LIKE A TV SCREEN. It's not a huge computer, but when your doing work and typing or whatever watching youtube it feels like a movie screen, beautiful. I never had such a good computer that just feels like a breath of fresh air. If you are contemplating on buying one, I would get 512 GB of storage and 16 ram. You will not be disappointed if you buy this no matter what, I strongly recommend it.",
+          "date": "2024-07-11",
+          "rating": 4.8
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Laptop A1",
+      "image": "https://example.com/images/laptop-a1.jpg",
+      "price": 1200,
+      "salePrice": 1100,
+      "discount": true,
+      "percent": 8,
+      "favorite": true,
+      "color": "Silver",
+      "rating": 4.6,
+      "categoryId": "laptop",
+      "brand": "Lenovo",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "15.6 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Intel Core i7"
+        },
+        {
+          "key": "RAM",
+          "value": "16 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "512 GB SSD"
+        },
+        {
+          "key": "Battery",
+          "value": "6000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "720p HD"
+        },
+        {
+          "key": "OS",
+          "value": "Windows 10"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/laptop-a1-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-a1-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-a1-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "john_doe",
+          "content": "Excellent laptop for daily use.",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://example.com/users/john_doe.jpg"
+        },
+        {
+          "id": "2",
+          "user": "jane_smith",
+          "content": "Good performance but battery life could be better.",
+          "date": "2024-07-11",
+          "rating": 4.5,
+          "userImage": "https://example.com/users/jane_smith.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.5
+        },
+        {
+          "key": "Monitor",
+          "value": 4.8
+        },
+        {
+          "key": "Lightness",
+          "value": 4.2
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Laptop B2",
+      "image": "https://example.com/images/laptop-b2.jpg",
+      "price": 1500,
+      "salePrice": 1400,
+      "discount": true,
+      "percent": 6,
+      "favorite": true,
+      "color": "Black",
+      "rating": 4.7,
+      "categoryId": "laptop",
+      "brand": "Apple",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "14 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Intel Core i9"
+        },
+        {
+          "key": "RAM",
+          "value": "32 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "1 TB SSD"
+        },
+        {
+          "key": "Battery",
+          "value": "7000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "1080p HD"
+        },
+        {
+          "key": "OS",
+          "value": "Windows 11"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/laptop-b2-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-b2-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-b2-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "alice_wonder",
+          "content": "A powerhouse for all my tasks.",
+          "date": "2024-07-10",
+          "rating": 4.9,
+          "userImage": "https://example.com/users/alice_wonder.jpg"
+        },
+        {
+          "id": "2",
+          "user": "bob_brown",
+          "content": "Perfect for gaming and heavy workloads.",
+          "date": "2024-07-11",
+          "rating": 4.7,
+          "userImage": "https://example.com/users/bob_brown.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.7
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.8
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Laptop C3",
+      "image": "https://example.com/images/laptop-c3.jpg",
+      "price": 1000,
+      "salePrice": 950,
+      "discount": true,
+      "percent": 5,
+      "favorite": true,
+      "color": "Grey",
+      "rating": 4.4,
+      "categoryId": "laptop",
+      "brand": "Lenovo",
+      "bestSeller": false,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "13.3 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "AMD Ryzen 7"
+        },
+        {
+          "key": "RAM",
+          "value": "24 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "512 GB SSD"
+        },
+        {
+          "key": "Battery",
+          "value": "5500 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "720p HD"
+        },
+        {
+          "key": "OS",
+          "value": "Windows 10"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/laptop-c3-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-c3-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-c3-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "charlie_doe",
+          "content": "Compact and efficient.",
+          "date": "2024-07-10",
+          "rating": 4.6,
+          "userImage": "https://example.com/users/charlie_doe.jpg"
+        },
+        {
+          "id": "2",
+          "user": "dana_smith",
+          "content": "Good for everyday use.",
+          "date": "2024-07-11",
+          "rating": 4.3,
+          "userImage": "https://example.com/users/dana_smith.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.3
+        },
+        {
+          "key": "Monitor",
+          "value": 4.5
+        },
+        {
+          "key": "Lightness",
+          "value": 4.1
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.4
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Laptop D4",
+      "image": "https://example.com/images/laptop-d4.jpg",
+      "price": 1300,
+      "salePrice": 1250,
+      "discount": true,
+      "percent": 4,
+      "favorite": true,
+      "color": "Blue",
+      "rating": 4.5,
+      "categoryId": "laptop",
+      "brand": "Asus",
+      "bestSeller": false,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "14 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Intel Core i7"
+        },
+        {
+          "key": "RAM",
+          "value": "24 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "1 TB SSD"
+        },
+        {
+          "key": "Battery",
+          "value": "6500 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "1080p HD"
+        },
+        {
+          "key": "OS",
+          "value": "Windows 11"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/laptop-d4-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-d4-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/laptop-d4-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "eva_green",
+          "content": "Solid performance and great design.",
+          "date": "2024-07-10",
+          "rating": 4.7,
+          "userImage": "https://example.com/users/eva_green.jpg"
+        },
+        {
+          "id": "2",
+          "user": "frank_black",
+          "content": "Excellent value for money.",
+          "date": "2024-07-11",
+          "rating": 4.5,
+          "userImage": "https://example.com/users/frank_black.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.6
+        },
+        {
+          "key": "Monitor",
+          "value": 4.8
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.6
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Smartphone X1",
+      "image": "https://example.com/images/smartphone-x1.jpg",
+      "price": 900,
+      "salePrice": 850,
+      "discount": true,
+      "percent": 6,
+      "favorite": true,
+      "color": "Black",
+      "rating": 4.7,
+      "categoryId": "phone",
+      "brand": "Samsung",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.2 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Snapdragon 888"
+        },
+        {
+          "key": "RAM",
+          "value": "8 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "256 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "4500 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "64 MP"
+        },
+        {
+          "key": "OS",
+          "value": "Android 12"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartphone-x1-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-x1-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-x1-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "alex_jones",
+          "content": "Amazing phone with great features!",
+          "date": "2024-07-10",
+          "rating": 4.9,
+          "userImage": "https://example.com/users/alex_jones.jpg"
+        },
+        {
+          "id": "2",
+          "user": "maria_smith",
+          "content": "Battery life is impressive.",
+          "date": "2024-07-11",
+          "rating": 4.7,
+          "userImage": "https://example.com/users/maria_smith.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.8
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Smartphone Y2",
+      "image": "https://example.com/images/smartphone-y2.jpg",
+      "price": 800,
+      "salePrice": 750,
+      "discount": true,
+      "percent": 6,
+      "favorite": true,
+      "color": "White",
+      "rating": 4.6,
+      "categoryId": "phone",
+      "brand": "Apple",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.1 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "A14 Bionic"
+        },
+        {
+          "key": "RAM",
+          "value": "6 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "128 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "4000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "12 MP"
+        },
+        {
+          "key": "OS",
+          "value": "iOS 15"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartphone-y2-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-y2-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-y2-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "john_doe",
+          "content": "Very informative!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://example.com/users/john_doe.jpg"
+        },
+        {
+          "id": "2",
+          "user": "jane_smith",
+          "content": "This phone is great for everyday use.",
+          "date": "2024-07-11",
+          "rating": 4.6,
+          "userImage": "https://example.com/users/jane_smith.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.5
+        },
+        {
+          "key": "Monitor",
+          "value": 4.8
+        },
+        {
+          "key": "Lightness",
+          "value": 4.2
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Smartphone Z3",
+      "image": "https://example.com/images/smartphone-z3.jpg",
+      "price": 950,
+      "salePrice": 900,
+      "discount": true,
+      "percent": 5,
+      "favorite": true,
+      "color": "Blue",
+      "rating": 4.8,
+      "categoryId": "phone",
+      "brand": "OnePlus",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.4 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "Snapdragon 870"
+        },
+        {
+          "key": "RAM",
+          "value": "12 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "256 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "4500 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "48 MP"
+        },
+        {
+          "key": "OS",
+          "value": "Android 12"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartphone-z3-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-z3-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-z3-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "anna_williams",
+          "content": "Great performance and value.",
+          "date": "2024-07-10",
+          "rating": 4.9,
+          "userImage": "https://example.com/users/anna_williams.jpg"
+        },
+        {
+          "id": "2",
+          "user": "mark_jones",
+          "content": "Battery life could be better, but overall a solid phone.",
+          "date": "2024-07-11",
+          "rating": 4.8,
+          "userImage": "https://example.com/users/mark_jones.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.7
+        },
+        {
+          "key": "Monitor",
+          "value": 4.9
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.8
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Smartphone W4",
+      "image": "https://example.com/images/smartphone-w4.jpg",
+      "price": 700,
+      "salePrice": 650,
+      "discount": true,
+      "percent": 7,
+      "favorite": true,
+      "color": "Red",
+      "rating": 4.5,
+      "categoryId": "phone",
+      "brand": "Xiaomi",
+      "bestSeller": false,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "6.5 inches"
+        },
+        {
+          "key": "Processor",
+          "value": "MediaTek Dimensity 1200"
+        },
+        {
+          "key": "RAM",
+          "value": "8 GB"
+        },
+        {
+          "key": "Storage",
+          "value": "128 GB"
+        },
+        {
+          "key": "Battery",
+          "value": "5000 mAh"
+        },
+        {
+          "key": "Camera",
+          "value": "64 MP"
+        },
+        {
+          "key": "OS",
+          "value": "Android 11"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartphone-w4-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-w4-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartphone-w4-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "oliver_lee",
+          "content": "Great phone for the price.",
+          "date": "2024-07-10",
+          "rating": 4.6,
+          "userImage": "https://example.com/users/oliver_lee.jpg"
+        },
+        {
+          "id": "2",
+          "user": "sophia_davis",
+          "content": "Good performance but could be improved.",
+          "date": "2024-07-11",
+          "rating": 4.4,
+          "userImage": "https://example.com/users/sophia_davis.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.5
+        },
+        {
+          "key": "Monitor",
+          "value": 4.6
+        },
+        {
+          "key": "Lightness",
+          "value": 4.2
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.5
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.7
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Smart Watch A1",
+      "image": "https://example.com/images/smartwatch-a1.jpg",
+      "price": 250,
+      "salePrice": 230,
+      "discount": true,
+      "percent": 8,
+      "favorite": true,
+      "color": "Black",
+      "rating": 4.5,
+      "categoryId": "smartwatch",
+      "brand": "Apple",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.7 inches"
+        },
+        {
+          "key": "Battery",
+          "value": "300 mAh"
+        },
+        {
+          "key": "Water Resistant",
+          "value": "Yes"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth, Wi-Fi"
+        },
+        {
+          "key": "OS",
+          "value": "watchOS"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartwatch-a1-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-a1-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-a1-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "john_doe",
+          "content": "Great smart watch with many features!",
+          "date": "2024-07-10",
+          "rating": 4.8,
+          "userImage": "https://example.com/users/john_doe.jpg"
+        },
+        {
+          "id": "2",
+          "user": "jane_smith",
+          "content": "Battery life is a bit short.",
+          "date": "2024-07-11",
+          "rating": 4.6,
+          "userImage": "https://example.com/users/jane_smith.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.3
+        },
+        {
+          "key": "Monitor",
+          "value": 4.7
+        },
+        {
+          "key": "Lightness",
+          "value": 4.5
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.6
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.5
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Smart Watch B2",
+      "image": "https://example.com/images/smartwatch-b2.jpg",
+      "price": 200,
+      "salePrice": 180,
+      "discount": true,
+      "percent": 10,
+      "favorite": true,
+      "color": "Silver",
+      "rating": 4.6,
+      "categoryId": "smartwatch",
+      "brand": "Samsung",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.6 inches"
+        },
+        {
+          "key": "Battery",
+          "value": "350 mAh"
+        },
+        {
+          "key": "Water Resistant",
+          "value": "Yes"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth, Wi-Fi, LTE"
+        },
+        {
+          "key": "OS",
+          "value": "Tizen"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartwatch-b2-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-b2-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-b2-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "alex_jones",
+          "content": "Solid performance and build quality.",
+          "date": "2024-07-10",
+          "rating": 4.7,
+          "userImage": "https://example.com/users/alex_jones.jpg"
+        },
+        {
+          "id": "2",
+          "user": "maria_smith",
+          "content": "Love the design and features.",
+          "date": "2024-07-11",
+          "rating": 4.6,
+          "userImage": "https://example.com/users/maria_smith.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.4
+        },
+        {
+          "key": "Monitor",
+          "value": 4.8
+        },
+        {
+          "key": "Lightness",
+          "value": 4.5
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Smart Watch C3",
+      "image": "https://example.com/images/smartwatch-c3.jpg",
+      "price": 150,
+      "salePrice": 140,
+      "discount": true,
+      "percent": 7,
+      "favorite": true,
+      "color": "Blue",
+      "rating": 4.4,
+      "categoryId": "smartwatch",
+      "brand": "Fitbit",
+      "bestSeller": false,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.4 inches"
+        },
+        {
+          "key": "Battery",
+          "value": "200 mAh"
+        },
+        {
+          "key": "Water Resistant",
+          "value": "Yes"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth"
+        },
+        {
+          "key": "OS",
+          "value": "Fitbit OS"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartwatch-c3-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-c3-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-c3-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "anna_williams",
+          "content": "Perfect for fitness tracking.",
+          "date": "2024-07-10",
+          "rating": 4.5,
+          "userImage": "https://example.com/users/anna_williams.jpg"
+        },
+        {
+          "id": "2",
+          "user": "mark_jones",
+          "content": "Affordable and functional.",
+          "date": "2024-07-11",
+          "rating": 4.3,
+          "userImage": "https://example.com/users/mark_jones.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.2
+        },
+        {
+          "key": "Monitor",
+          "value": 4.4
+        },
+        {
+          "key": "Lightness",
+          "value": 4.3
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.5
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.4
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Smart Watch D4",
+      "image": "https://example.com/images/smartwatch-d4.jpg",
+      "price": 300,
+      "salePrice": 280,
+      "discount": true,
+      "percent": 7,
+      "favorite": true,
+      "color": "Gold",
+      "rating": 4.7,
+      "categoryId": "smartwatch",
+      "brand": "Garmin",
+      "bestSeller": true,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.8 inches"
+        },
+        {
+          "key": "Battery",
+          "value": "400 mAh"
+        },
+        {
+          "key": "Water Resistant",
+          "value": "Yes"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth, Wi-Fi"
+        },
+        {
+          "key": "OS",
+          "value": "Garmin OS"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartwatch-d4-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-d4-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-d4-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "eva_green",
+          "content": "Highly recommend for outdoor activities.",
+          "date": "2024-07-10",
+          "rating": 4.9,
+          "userImage": "https://example.com/users/eva_green.jpg"
+        },
+        {
+          "id": "2",
+          "user": "frank_black",
+          "content": "Excellent features and battery life.",
+          "date": "2024-07-11",
+          "rating": 4.7,
+          "userImage": "https://example.com/users/frank_black.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.6
+        },
+        {
+          "key": "Monitor",
+          "value": 4.8
+        },
+        {
+          "key": "Lightness",
+          "value": 4.5
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.7
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.6
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Smart Watch E5",
+      "image": "https://example.com/images/smartwatch-e5.jpg",
+      "price": 280,
+      "salePrice": 260,
+      "discount": true,
+      "percent": 7,
+      "favorite": true,
+      "color": "Rose Gold",
+      "rating": 4.5,
+      "categoryId": "smartwatch",
+      "brand": "Huawei",
+      "bestSeller": false,
+      "specifications": [
+        {
+          "key": "Screen Size",
+          "value": "1.7 inches"
+        },
+        {
+          "key": "Battery",
+          "value": "380 mAh"
+        },
+        {
+          "key": "Water Resistant",
+          "value": "Yes"
+        },
+        {
+          "key": "Connectivity",
+          "value": "Bluetooth, Wi-Fi"
+        },
+        {
+          "key": "OS",
+          "value": "HarmonyOS"
+        }
+      ],
+      "imagePreview": [
+        {
+          "img": "https://example.com/images/smartwatch-e5-preview1.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-e5-preview2.jpg"
+        },
+        {
+          "img": "https://example.com/images/smartwatch-e5-preview3.jpg"
+        }
+      ],
+      "comment": [
+        {
+          "id": "1",
+          "user": "lisa_white",
+          "content": "Stylish and functional.",
+          "date": "2024-07-10",
+          "rating": 4.6,
+          "userImage": "https://example.com/users/lisa_white.jpg"
+        },
+        {
+          "id": "2",
+          "user": "tom_green",
+          "content": "Great watch with a lot of features.",
+          "date": "2024-07-11",
+          "rating": 4.5,
+          "userImage": "https://example.com/users/tom_green.jpg"
+        }
+      ],
+      "ratingFunction": [
+        {
+          "key": "Battery charge",
+          "value": 4.4
+        },
+        {
+          "key": "Monitor",
+          "value": 4.7
+        },
+        {
+          "key": "Lightness",
+          "value": 4.5
+        },
+        {
+          "key": "Build Quality",
+          "value": 4.6
+        },
+        {
+          "key": "Value for Money",
+          "value": 4.5
+        }
+      ]
+    }
+  ],
+  "search-keyword": [
+    {
+      "id": "1",
+      "title": "Tablets"
+    },
+    {
+      "id": "2",
+      "title": "Laptops"
+    },
+    {
+      "id": "3",
+      "title": "Headphones"
+    },
+    {
+      "id": "4",
+      "title": "USB Drive"
+    },
+    {
+      "id": "5",
+      "title": "Smartphones"
+    },
+    {
+      "id": "6",
+      "title": "Phone Cases"
+    },
+    {
+      "id": "7",
+      "title": "Smartwatch"
+    }
+  ],
+  "brand": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "image": "/assets/images/logo/apple.png"
+    },
+    {
+      "id": "2",
+      "name": "Sony",
+      "image": "/assets/images/logo/sony.png"
+    },
+    {
+      "id": "3",
+      "name": "Samsung",
+      "image": "/assets/images/logo/samsung.png"
+    },
+    {
+      "id": "4",
+      "name": "Canon",
+      "image": "/assets/images/logo/canon.png"
+    },
+    {
+      "id": "5",
+      "name": "Dell",
+      "image": "/assets/images/logo/flower.png"
+    },
+    {
+      "id": "6",
+      "name": "Lenovo",
+      "image": "/assets/images/logo/lenovo.png"
+    },
+    {
+      "id": "7",
+      "name": "HP",
+      "image": "/assets/images/logo/lenovo.png"
+    }
+  ],
+  "blog": [
+    {
+      "id": "1",
+      "title": "Challenges and Opportunities in Green Energy",
+      "author": "John Doe",
+      "releaseDate": "2024-07-01",
+      "readTime": "7 mins read",
+      "image": "/assets/images/blog/blog1.png",
+      "tags": ["electric", "phone", "music"],
+      "content": "As the world faces the challenges of climate change and dwindling fossil fuel reserves, green energy emerges as a beacon of hope. Renewable energy sources are becoming increasingly vital in our quest for a sustainable future.\n\n**2. Solar Power**\nSolar energy is one of the most abundant and accessible sources of green energy. Advances in solar panel technology and energy storage solutions have made it more efficient and affordable for both residential and commercial use.\n\n**3. Wind Energy**\nWind power is another key player in the green energy sector. With the development of larger and more efficient turbines, wind farms are generating substantial amounts of clean electricity, contributing significantly to the global energy mix.\n\n**4. Hydropower**\nHydropower, one of the oldest forms of renewable energy, continues to be a reliable and significant source of power. Innovations in small-scale hydro projects and pumped storage are enhancing its role in sustainable energy production.\n\n**5. Biomass Energy**\nBiomass energy, derived from organic materials, offers a versatile and renewable option for energy production. Advances in biofuel technology are making it a more viable alternative to traditional fossil fuels.\n\n**6. Geothermal Energy**\nGeothermal energy harnesses the Earth's internal heat to generate power. With new drilling techniques and improved technology, geothermal energy is becoming a more accessible and efficient renewable energy source.\n\n**7. Challenges and Solutions**\nDespite the progress, the transition to green energy faces challenges such as high initial costs, storage issues, and grid integration. However, ongoing research and development are paving the way for overcoming these obstacles, making renewable energy more practical and widespread.\n\n**8. The Role of Policy and Investment**\nGovernment policies and investments play a crucial role in promoting green energy. Incentives, subsidies, and international cooperation are essential for accelerating the adoption of renewable energy technologies and infrastructure.\n\n**Conclusion**\nThe shift towards green energy is not only essential for environmental sustainability but also for economic resilience and energy security. By embracing renewable energy sources, we can ensure a cleaner, greener future for generations to come."
+    },
+    {
+      "id": "2",
+      "title": "The Future of Electric Vehicles",
+      "author": "Jane Smith",
+      "releaseDate": "2024-07-02",
+      "readTime": "7 mins read",
+      "image": "/assets/images/blog/blog2.png",
+      "tags": ["headphone", "phone", "music", "accesories", "hifi"],
+      "content": "Electric vehicles (EVs) are transforming the automotive industry, offering a sustainable alternative to traditional gasoline-powered cars. With advancements in battery technology and a growing charging infrastructure, EVs are becoming more accessible and practical for everyday use.\n\n**2. Advantages of EVs**\nEVs produce zero emissions, reducing air pollution and dependence on fossil fuels. They also offer lower operating costs, as electricity is cheaper than gasoline and EVs require less maintenance.\n\n**3. Challenges in Adoption**\nDespite their benefits, EVs face challenges such as limited range, long charging times, and higher upfront costs. However, ongoing research and development are addressing these issues, making EVs more viable for a wider audience.\n\n**4. Government Incentives**\nMany governments are offering incentives to promote EV adoption, including tax credits, rebates, and investment in charging infrastructure. These measures are helping to accelerate the transition to electric transportation.\n\n**5. The Role of Automakers**\nAutomakers are investing heavily in EV technology, developing new models with longer ranges and faster charging capabilities. Collaborations with technology companies are also driving innovation in the EV market.\n\n**6. Future Trends**\nThe future of EVs looks promising, with trends such as autonomous driving, vehicle-to-grid technology, and wireless charging on the horizon. These advancements will further enhance the convenience and sustainability of electric transportation.\n\n**Conclusion**\nElectric vehicles are poised to play a crucial role in the future of transportation. By overcoming current challenges and embracing new technologies, EVs can lead the way to a cleaner, more sustainable future."
+    },
+    {
+      "id": "3",
+      "title": "Artificial Intelligence in Healthcare",
+      "author": "Dr. Alan Turing",
+      "releaseDate": "2024-07-03",
+      "readTime": "7 mins read",
+      "image": "/assets/images/blog/blog3.png",
+      "tags": ["headphone", "phone", "music", "accesories", "hifi"],
+      "content": "Artificial Intelligence (AI) is revolutionizing healthcare by improving diagnostics, treatment planning, and patient care. AI algorithms can analyze vast amounts of data quickly and accurately, leading to more effective and personalized healthcare solutions.\n\n**2. AI in Diagnostics**\nAI-powered diagnostic tools can identify diseases and conditions from medical images with high accuracy. This technology is particularly useful in radiology, dermatology, and pathology, where early detection is critical.\n\n**3. Treatment Planning**\nAI can assist in creating personalized treatment plans based on a patient's medical history, genetic information, and current health status. This approach can lead to more effective treatments with fewer side effects.\n\n**4. Patient Care**\nAI-powered chatbots and virtual assistants can provide patients with instant access to medical information and support, improving patient engagement and satisfaction. These tools can also help healthcare providers manage patient inquiries and appointments more efficiently.\n\n**5. Challenges and Considerations**\nWhile AI offers significant benefits, it also raises ethical and privacy concerns. Ensuring the security of patient data and maintaining transparency in AI decision-making processes are critical for building trust in AI-powered healthcare solutions.\n\n**6. Future of AI in Healthcare**\nThe future of AI in healthcare looks promising, with ongoing advancements in machine learning, natural language processing, and robotics. These technologies will continue to enhance healthcare delivery, making it more efficient, accurate, and patient-centered.\n\n**Conclusion**\nAI is transforming healthcare by providing innovative solutions for diagnostics, treatment planning, and patient care. By addressing ethical and privacy concerns and embracing new technologies, AI can lead to a more effective and personalized healthcare system."
+    },
+    {
+      "id": "4",
+      "title": "Blockchain Technology: Beyond Cryptocurrency",
+      "author": "Satoshi Nakamoto",
+      "releaseDate": "2024-07-04",
+      "readTime": "7 mins read",
+      "image": "/assets/images/blog/greenscreen.png",
+      "tags": ["headphone", "phone", "music", "accesories", "story"],
+      "content": "Blockchain technology, best known for underpinning cryptocurrencies like Bitcoin, has far-reaching applications beyond digital currencies. Its decentralized, secure, and transparent nature makes it ideal for various industries, including finance, supply chain, and healthcare.\n\n**2. Financial Services**\nBlockchain can streamline financial transactions by eliminating intermediaries, reducing costs, and increasing transaction speed. It also enhances security and transparency, reducing the risk of fraud.\n\n**3. Supply Chain Management**\nBlockchain enables real-time tracking of goods and materials throughout the supply chain. This transparency helps prevent counterfeiting, ensures product authenticity, and improves efficiency in logistics.\n\n**4. Healthcare**\nBlockchain can securely store and share patient medical records, ensuring data integrity and privacy. It also facilitates seamless communication between healthcare providers, improving patient care and coordination.\n\n**5. Smart Contracts**\nSmart contracts are self-executing contracts with the terms directly written into code. They automatically enforce agreements when predefined conditions are met, reducing the need for intermediaries and increasing efficiency.\n\n**6. Challenges and Limitations**\nDespite its potential, blockchain faces challenges such as scalability, energy consumption, and regulatory uncertainty. Ongoing research and development are addressing these issues, making blockchain more viable for widespread adoption.\n\n**Future of Blockchain**\nThe future of blockchain technology is promising, with potential applications in voting systems, intellectual property, and the Internet of Things (IoT). As the technology matures, it will continue to revolutionize various industries, offering new opportunities for innovation and efficiency.\n\n**Conclusion**\nBlockchain technology has the potential to transform multiple industries by providing secure, transparent, and efficient solutions. By addressing current challenges and exploring new applications, blockchain can lead to a more decentralized and trustworthy digital world."
+    },
+    {
+      "id": "5",
+      "title": "The Impact of 5G Technology",
+      "author": "Nina Williams",
+      "releaseDate": "2024-07-05",
+      "readTime": "7 mins read",
+      "image": "/assets/images/blog/ip14.png",
+      "tags": ["headphone", "phone", "music", "accesories", "hifi"],
+      "content": "The rollout of 5G technology is set to revolutionize communication, offering faster speeds, lower latency, and greater connectivity. This next-generation wireless technology will impact various industries, including telecommunications, healthcare, and manufacturing.\n\n**2. Enhanced Mobile Connectivity**\n5G provides significantly faster download and upload speeds compared to previous generations, enabling seamless streaming, gaming, and real-time communication. This enhanced connectivity will improve user experiences and drive innovation in mobile applications.\n\n**3. Internet of Things (IoT)**\n5G will enable the widespread adoption of IoT devices by providing the necessary bandwidth and low latency for real-time data exchange. This connectivity will support smart cities, autonomous vehicles, and industrial automation, leading to increased efficiency and innovation.\n\n**4. Healthcare Applications**\n5G will transform healthcare by enabling remote monitoring, telemedicine, and robotic surgeries. High-speed, low-latency connections will allow for real-time data transmission and communication, improving patient outcomes and access to care.\n\n**5. Manufacturing and Industry 4.0**\n5G will drive the next industrial revolution by supporting advanced manufacturing technologies such as robotics, AI, and IoT. This connectivity will enable real-time monitoring, predictive maintenance, and efficient resource management, increasing productivity and reducing costs.\n\n**6. Challenges and Considerations**\nThe deployment of 5G faces challenges such as high infrastructure costs, spectrum allocation, and security concerns. Addressing these challenges will require collaboration between governments, telecom companies, and technology providers.\n\n**Future of 5G**\nThe future of 5G technology is promising, with potential applications in augmented reality (AR), virtual reality (VR), and immersive experiences. As 5G networks expand, they will continue to drive innovation and transform various industries.\n\n**Conclusion**\n5G technology is poised to revolutionize communication and connectivity across multiple industries. By overcoming current challenges and embracing new applications, 5G can lead to a more connected, efficient, and innovative future."
+    },
+    {
+      "id": "6",
+      "title": "The Evolution of Artificial Intelligence",
+      "author": "Dr. Lisa Randall",
+      "releaseDate": "2024-07-06",
+      "readTime": "7 mins read",
+      "image": "/assets/images/blog/blog1.png",
+      "tags": ["headphone", "phone", "music", "accesories", "hifi"],
+      "content": "Artificial Intelligence (AI) has evolved significantly since its inception, transforming from a theoretical concept to a practical tool with wide-ranging applications. This evolution has been driven by advances in machine learning, data processing, and computational power.\n\n**2. Early Development**\nThe early development of AI focused on creating systems that could mimic human intelligence, such as early neural networks and expert systems. These foundational concepts laid the groundwork for modern AI technologies.\n\n**3. Machine Learning**\nMachine learning, a subset of AI, has been a key driver of AI's evolution. By enabling systems to learn from data and improve over time, machine learning has led to significant advancements in natural language processing, computer vision, and predictive analytics.\n\n**4. Deep Learning**\nDeep learning, a more advanced form of machine learning, uses neural networks with multiple layers to process complex data. This technology has revolutionized fields such as image recognition, speech synthesis, and autonomous driving.\n\n**5. AI in Everyday Life**\nAI is now integrated into many aspects of our daily lives, from virtual assistants like Siri and Alexa to recommendation algorithms on streaming services and social media platforms. These applications enhance convenience, personalization, and efficiency.\n\n**6. Ethical Considerations**\nAs AI continues to evolve, it raises important ethical questions about privacy, bias, and accountability. Ensuring that AI systems are developed and deployed responsibly is critical for maintaining public trust and maximizing the benefits of AI technology.\n\n**Future of AI**\nThe future of AI holds exciting possibilities, including advancements in quantum computing, AI-driven healthcare solutions, and more sophisticated autonomous systems. Continued research and innovation will drive the next wave of AI evolution, shaping the future of technology and society.\n\n**Conclusion**\nThe evolution of AI has transformed it from a theoretical concept to a practical tool with wide-ranging applications. By addressing ethical considerations and embracing new advancements, AI can continue to enhance our lives and drive innovation across various industries."
+    }
+  ],
+  "videoblogs": [
+    {
+      "id": 1,
+      "title": "How to connect your iPhone to a laptop?",
+      "url": "https://www.youtube.com/watch?v=zTbDqlDi268",
+      "image": "/assets/images/blog/laptop.png"
+    },
+    {
+      "id": 2,
+      "title": "How to fix Green Screen of Death (GSoD) error in Windows 10 and 11?",
+      "url": "https://www.youtube.com/watch?v=qTY428hjuzs",
+      "image": "/assets/images/blog/greenscreen.png"
+    },
+    {
+      "id": 3,
+      "title": "Iphone 14Promax review, Still powerful and flagship",
+      "url": "https://www.youtube.com/watch?v=FT3ODSg1GFE",
+      "image": "/assets/images/blog/ip14.png"
+    },
+    {
+      "id": 4,
+      "title": "How to connect your iPhone to a laptop?",
+      "url": "https://www.youtube.com/watch?v=zTbDqlDi268",
+      "image": "/assets/images/blog/ip14.png"
+    },
+    {
+      "id": 5,
+      "title": "How to connect your iPhone to a laptop?",
+      "url": "https://www.youtube.com/watch?v=zTbDqlDi268",
+      "image": "/assets/images/blog/ip14.png"
+    },
+    {
+      "id": 6,
+      "title": "How to connect your iPhone to a laptop?",
+      "url": "https://www.youtube.com/watch?v=zTbDqlDi268",
+      "image": "/assets/images/blog/ip14.png"
+    }
+  ],
+  "credit-card": [
+    {
+      "id": "1",
+      "image": "/assets/icons/delivery/america.svg",
+      "code": "1002 300004 50006",
+      "name": "J SMITH",
+      "expires": "12/24",
+      "selected": true
+    },
+    {
+      "id": "2",
+      "image": "/assets/icons/delivery/visa.svg",
+      "code": "4763 5007 0001 3456",
+      "name": "J SMITH",
+      "expires": "10/27",
+      "selected": false
+    },
+    {
+      "id": "3",
+      "image": "/assets/icons/delivery/master_card.svg",
+      "code": "5258 9712 3456 7890",
+      "name": "J SMITH",
+      "expires": "07/24",
+      "selected": false
+    },
+    {
+      "id": "f66974eb-a040-46dd-ba75-459b41d2403f",
+      "image": "/assets/icons/delivery/visa.svg",
+      "selected": false,
+      "name": "NGUYEN TUAN MINH",
+      "code": "6011000990139424",
+      "expires": "2024-10-21T17:00:00.000Z"
+    },
+    {
+      "id": "a370ee17-e1e1-4db6-b018-b35f0735c3b1",
+      "image": "/assets/icons/delivery/visa.svg",
+      "selected": false,
+      "name": "Nguyen tuan minh",
+      "code": "123213213123213",
+      "expires": "2024-10-21T17:00:00.000Z"
+    }
+  ],
+  "colors": [
+    {
+      "color": "White"
+    },
+    {
+      "color": "Black"
+    },
+    {
+      "color": "Grey"
+    },
+    {
+      "color": "Blue"
+    },
+    {
+      "color": "Red"
+    },
+    {
+      "color": "Rose Gold"
+    },
+    {
+      "color": "Silver"
+    }
+  ]
 }
