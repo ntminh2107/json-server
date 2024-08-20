@@ -6,11 +6,11 @@ const server = jsonServer.create();
 const fs = require("fs");
 const path = require("path");
 const db = JSON.parse(fs.readFileSync(path.join("db.json")));
-server.use(
-  cors({
-    origin: "https://tech-heim-ygz2.vercel.app", // Replace with your frontend URL
-  })
-);
+server.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
+  res.header("Access-Control-Allow-Headers", "*");
+  next();
+});
 // Uncomment to allow write operations
 // const fs = require('fs')
 // const path = require('path')
