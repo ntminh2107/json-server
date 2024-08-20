@@ -6,7 +6,11 @@ const server = jsonServer.create();
 const fs = require("fs");
 const path = require("path");
 const db = JSON.parse(fs.readFileSync(path.join("db.json")));
-
+server.use(
+  cors({
+    origin: "https://tech-heim-ygz2.vercel.app", // Replace with your frontend URL
+  })
+);
 // Uncomment to allow write operations
 // const fs = require('fs')
 // const path = require('path')
@@ -20,7 +24,6 @@ const db = JSON.parse(fs.readFileSync(path.join("db.json")));
 const router = jsonServer.router(db);
 
 const middlewares = jsonServer.defaults();
-server.use(cors()); // Enable CORS for all origins
 
 server.use(middlewares);
 // Add this before server.use(router)
