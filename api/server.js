@@ -7,7 +7,6 @@ server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
 // Add custom routes if needed
-server.use("/api", router);
 
 // Enable CORS for all routes and methods
 server.use((req, res, next) => {
